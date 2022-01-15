@@ -3,7 +3,7 @@ pipeline {
     parameters {
       choice(
         name: 'action',
-        choices: "apply\destroy",
+        choices: "apply\ndestroy",
         description: 'Terraform action' )
   }
     stages {
